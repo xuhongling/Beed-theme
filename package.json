@@ -1,0 +1,23 @@
+{
+    "name": "beed",
+    "displayName": "Beed",
+    "description": "",
+    "version": "0.0.2",
+    "publisher": "xuhongling",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Beed",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Beed-color-theme.json"
+            }
+        ]
+    }
+}
