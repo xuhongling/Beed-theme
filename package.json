@@ -1,20 +1,24 @@
 {
-    "name": "beed",
-    "displayName": "Beed",
-    "description": "",
-    "version": "0.0.2",
+    "name": "vscode-theme",
+    "displayName": "Beed Theme",
+    "description": "One beautiful Dark Theme",
+    "version": "1.0.0",
     "publisher": "xuhongling",
     "engines": {
-        "vscode": "^1.23.0"
+        "vscode": "^1.12.0"
     },
     "categories": [
         "Themes"
     ],
     "icon": "icon.png",
+    "keywords": [
+        "beed",
+        "theme"
+    ],
     "contributes": {
         "themes": [
             {
-                "label": "Beed",
+                "label": "Beed-theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Beed-color-theme.json"
             }

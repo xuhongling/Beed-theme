@@ -180,7 +180,7 @@
 			"name": "Class name",
 			"scope": "entity.name.type, entity.name.class",
 			"settings": {
-				"fontStyle": "underline",
+				"fontStyle": "bold",
 				"foreground": "#2eae64"
 			}
 		},
@@ -387,17 +387,33 @@
 			}
 		},
 		{
-			"name": "this.self",
-			"scope": "variable.language",
-			"settings": {
-				"foreground": "#348eca"
-			}
-		},
-		{
 			"name": "css property-value",
 			"scope": "meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css",
 			"settings": {
 				"foreground": "#ae81ff"
+			}
+		},
+		{
+			"name": "Support",
+			"scope": "support",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#fd971f"
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#d6564a"
+			}
+		},
+		{
+			"name": "this.self",
+			"scope": "variable.language",
+			"settings": {
+				"foreground": "#d6564a"
 			}
 		}
 	]
